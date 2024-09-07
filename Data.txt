@@ -1,0 +1,12 @@
+INSERT INTO Products (product_name, price, product_url, category, description, origin, instock, calories, import_date)
+VALUES 
+    ('Apple', 1.00, 'apple.png', 'Fruit', 'A crunchy and juicy fruit', 'Australia', 20, 52, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Avocado', 1.50, 'avocado.png', 'Healthy Fats', 'Creamy and nutritious fruit', 'Australia', 20, 160, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Banana', 0.50, 'banana.png', 'Fruit', 'Sweet and easy to eat', 'Australia', 20, 105, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Carrot', 0.75, 'carrot.png', 'Vegetable', 'Sweet and crunchy root vegetable', 'Australia', 20, 41, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Chicken Breast', 3.50, 'chicken_breast.png', 'Lean Proteins', 'Lean protein source', 'Australia', 20, 165, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Deluxe Mixed Nuts', 2.00, 'deluxe_mixed_nuts.png', 'Nuts and Seeds', 'Healthy source of fats and protein', 'Vietnam', 20, 607, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Olive Oil', 8.00, 'olive_oil.png', 'Healthy Fats', 'Healthy oil for cooking and dressing', 'England', 20, 120, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Salmon', 10.00, 'salmon.png', 'Lean Proteins', 'Rich in omega-3 fatty acids', 'Australia', 20, 208, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Spinach', 1.25, 'spinach.png', 'Vegetable', 'Nutrient-rich leafy green', 'Australia', 20, 23, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY)),
+    ('Tomato', 0.75, 'tomato.png', 'Vegetable', 'Juicy and flavorful fruit often used in cooking', 'Australia', 20, 18, DATE_SUB(CURDATE(), INTERVAL FLOOR(RAND() * 14) DAY));
